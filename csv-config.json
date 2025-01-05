@@ -1,0 +1,59 @@
+{
+  "delimiter": ";",
+  "columns": [
+    {
+      "field": "date",
+      "format": "yyyy-MM-dd",
+      "label": "date"
+    },
+    {
+      "field": "type",
+      "format": "DEPOSIT=DEPOSIT;REMOVAL=REMOVAL;INTEREST=INTEREST;INTEREST_CHARGE=INTEREST_CHARGE;DIVIDENDS=DIVIDENDS;FEES=FEES;FEES_REFUND=FEES_REFUND;TAXES=TAXES;TAX_REFUND=TAX_REFUND;BUY=BUY;SELL=SELL;TRANSFER_IN=TRANSFER_IN;TRANSFER_OUT=TRANSFER_OUT",
+      "label": "type"
+    },
+    {
+      "field": "time",
+      "label": "time"
+    },
+    {
+      "field": "fees",
+      "format": "0.000,00",
+      "label": "fees"
+    },
+    {
+      "field": "value",
+      "format": "0.000,00",
+      "label": "value"
+    },
+    {
+      "field": "shares",
+      "format": "0.000,00",
+      "label": "shares"
+    },
+    {
+      "field": "ticker",
+      "label": "ticker"
+    },
+    {
+      "field": "currency",
+      "label": "currency"
+    },
+    {
+      "field": "currencyGross",
+      "label": "currencyGross"
+    },
+    {
+      "field": "isin",
+      "label": "isin"
+    },
+    {
+      "field": "note",
+      "label": "Note"
+    }
+  ],
+  "isFirstLineHeader": true,
+  "skipLines": 0,
+  "label": "IBKR Short Cover Import",
+  "encoding": "UTF-8",
+  "target": "account-transaction"
+}
